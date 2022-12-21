@@ -1,0 +1,14 @@
+.ant-carousel {
+    flex-grow: 1;
+    margin-bottom: 10rem;
+    width: 50%;
+    height: 50%;;
+}
+
+.imageContainer {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

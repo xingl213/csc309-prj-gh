@@ -1,0 +1,9 @@
+.idea
+*/migrations/
+data
+media
+node_modules
+venv
+db.sqlite3
+pgeocode.py
+postman.json

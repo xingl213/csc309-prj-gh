@@ -1,0 +1,43 @@
+.scheduleContainer {
+    width: 50%;
+    margin: auto;
+}
+
+.buttonWrapperSchedule {
+    background-color: #ebebeb;
+    color: black; 
+    border: none;      
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    padding-left: 35px; 
+    padding-right: 35px;
+    text-align: center;   
+    text-decoration: none;   
+    display: inline-block;   
+    font-size: 16px;   
+    border-radius: 20px;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.buttonWrapperSchedule:hover {
+    transition: 0.5s ease;
+    background-color: black;
+    color: white;;
+    cursor: pointer;
+}
+
+.buttonWrapperSchedule:not(:hover) {
+    transition: 0.5s ease;
+    background-color: #ebebeb;
+    color: black;
+}
+
+.prevButton {
+    margin-left: 16px;
+}
+
+.nextButton {
+    float: right;
+}

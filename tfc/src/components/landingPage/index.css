@@ -1,0 +1,86 @@
+.ant-layout-header {
+    background-color: black !important
+}
+
+.ant-layout {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.ant-layout-footer {
+    text-align: center;
+    margin-top: auto;
+    background-color: black !important;
+    color: white !important;
+}
+
+.ant-layout > .ant-layout-content:has(.landingContainer) {
+    height: 100%;
+    background-color: black !important;
+}
+
+.landingContainer {
+    background-color: black;
+}
+
+ .videoTag {
+    height: 100% !important;
+    width: 100% !important;
+    -o-object-fit: cover !important;
+    object-fit: cover !important;
+    background-color: black !important;
+    position:relative !important;
+    z-index:0 !important;
+} 
+
+.landingContent {
+    position:absolute;
+    top:35%;
+    left:20%;
+    z-index:1;
+}
+
+.ant-layout-content {
+    position:relative; 
+    /* display: flex; */
+}
+
+.name {
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.smallParagraph {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 1rem;
+}
+
+.btnWrapper {
+    background-color: white;
+    color: black; 
+    border: none;      
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    padding-left: 35px; 
+    padding-right: 35px;
+    text-align: center;   
+    text-decoration: none;   
+    display: inline-block;   
+    font-size: 16px;   
+    border-radius: 20px;
+}
+
+.btnWrapper:hover {
+    transition: 0.5s ease;
+    background-color: #ebebeb;
+    cursor: pointer;
+}
+
+.btnWrapper:not(:hover) {
+    transition: 0.5s ease;
+    background-color: white;
+}

@@ -1,0 +1,17 @@
+
+.profile label{
+  font-weight: bold;
+    text-align: right;
+    clear: both;
+    float:left;
+    margin-right:15px;
+}
+
+.profile {
+  margin-top: 3rem;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

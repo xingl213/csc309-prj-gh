@@ -1,0 +1,7 @@
+.cardChange label {
+    text-align: right;
+    clear: both;
+    float:left;
+    margin-right:15px;
+    font-weight: bold;
+}

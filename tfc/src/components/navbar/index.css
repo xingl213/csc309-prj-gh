@@ -1,0 +1,54 @@
+.ant-menu-horizontal {
+    border-bottom: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.ant-menu-item {
+    color: white;
+    border-radius: 0;
+    background-color: black !important;
+}
+
+.ant-menu-item:hover {
+    transition: 0.5s ease;
+    font-size: 120%;
+    border-radius: 0;
+    color: white !important;
+}
+
+.ant-menu-item:not(:hover) {
+    transition: 1s ease;
+    font-size: 100%;
+    border-radius: 0;
+    color: white;
+}
+
+.ant-menu-submenu {
+    background-color: black !important;
+}
+
+.ant-menu-vertical {
+    background-color: black !important;
+}
+
+.ant-menu-submenu:hover {
+    transition: 0.5s ease;
+    font-size: 120%;
+    border-radius: 0;
+    color: white !important;
+}
+
+.ant-menu-submenu:not(:hover) {
+    transition: 0.5s ease;
+    background-color: white;
+    font-size: 100;
+    border-radius: 0;
+    color: white !important;
+}
+
+.ant-menu-title-content {
+    color: white;
+}

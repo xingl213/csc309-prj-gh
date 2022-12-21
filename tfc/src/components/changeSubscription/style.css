@@ -1,0 +1,16 @@
+.changeSub #error {
+    color: red;
+}
+
+.changeSub {
+    margin-top: 3rem;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+.ant-select {
+    width: 10rem;
+}
